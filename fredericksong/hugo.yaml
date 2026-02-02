@@ -1,4 +1,19 @@
 baseURL: https://example.org/
 languageCode: en-us
-title: My New Hugo Site
+title: Safe Intelligence Explosion
 theme: "PaperMod"
+languages:
+  en:
+    contentDir: content/en
+    languageName: English
+    weight: 10
+  kr:
+    contentDir: content/kr
+    languageName: Korean
+    weight: 20
+params:
+  ShowLanguageSwitcher: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true  # English at /, Korean at /ko/
